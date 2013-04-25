@@ -1,4 +1,4 @@
-# Reapples
+# REapPLes
 
 An interactive shell for AppleScript.
 
