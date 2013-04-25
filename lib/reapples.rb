@@ -1,5 +1,8 @@
+require "readline"
+
 require "reapples/version"
+require "reapples/cli"
 
 module Reapples
-  # Your code goes here...
+  # Your code probably does NOT go here...
 end

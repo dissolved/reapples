@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'reapples'
+Reapples::CLI.run
