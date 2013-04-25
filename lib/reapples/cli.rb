@@ -1,3 +1,5 @@
+require 'shellwords'
+
 module Reapples
   class CLI
     def self.run
@@ -13,7 +15,9 @@ module Reapples
           print "Goodbye, I hope you had fun!\n"
           exit 0
         else
-          puts "Try 'exit', it is the only feature."
+          puts "Executing: osascript -s s -e #{command.shellescape}"
+          result = `osascript -s s -e #{command.shellescape}`
+          puts result
         end
       end
     end
