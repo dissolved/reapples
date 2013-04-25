@@ -1,24 +1,11 @@
 # Reapples
 
-TODO: Write a gem description
+An interactive shell for AppleScript.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'reapples'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install reapples
 
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
